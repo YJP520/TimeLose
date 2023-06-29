@@ -274,6 +274,7 @@ class Clock(tk.Tk):
         self.after(100, self.update_time)  # 0.1s 更新操作
         self.configure(bg=self.backgroundColor)
 
+
 # 运行
 if __name__ == "__main__":
     Clock().mainloop()
